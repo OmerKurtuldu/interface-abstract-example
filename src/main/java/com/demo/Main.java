@@ -9,7 +9,7 @@ import com.demo.entities.Customer;
 
 public class Main {
     public static void main(String[] args) {
-        Customer customer = new Customer(1, "Ömer", "Kurtuldu", 1999, "12345678900");
+        Customer customer = new Customer(1, "Ömer", "Kurtuldu", 1999, "YourNationalityId");
 
         BaseCustomerManager neroCustomerManager = new NeroCustomerManager();
 
